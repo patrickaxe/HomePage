@@ -1,2 +1,35 @@
-<base target="_blank"/>
-<a href="di-ag.github.io">Visit New HomePage</a>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Redirecting to the latest webpage</title>
+</head>
+<body>
+<form name=loading> 
+　 <p align=center> <font color="#0066ff" size="2">Loading, please wait.</font><font color="#0066ff" size="2" face="Arial">...</font>
+　　<input type=text name=chart size=46 style="font-family:Arial; font-weight:bolder; color:#0066ff; background-color:#fef4d9; padding:0px; border-style:none;"> 
+
+　 　<input type=text name=percent size=47 style="color:#0066ff; text-align:center; border-width:medium; border-style:none;"> 
+　　<script>　 
+var bar=0　 
+var line="||"　 
+var amount="||"　 
+count()　 
+function count(){　 
+bar=bar+2　 
+amount =amount + line　 
+document.loading.chart.value=amount　 
+document.loading.percent.value=bar+"%"　 
+if (bar<99)　 
+{setTimeout("count()",100);}　 
+else　 
+{window.location =di-ag.github.io;}　 
+}</script> 
+　</p> 
+</form><p align="center">
+Welcome to Patrick's Latest Webpage<br/>
+Patrick is an agricultural professional based in Darwin, Northern Territory, Australia.<br />
+He acknowledges Larrakia people, the traditional custodian of Darwin and its vicinity. <br /><br />
+If your browser is being supported,<a style="text-decoration: none" href="di-ag.github.io">
+<font color="#FF0000">please click here.</font></a>.</p>
+</body>
+</html>
